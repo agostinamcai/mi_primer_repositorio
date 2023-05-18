@@ -1,0 +1,50 @@
+@font-face { 
+  font-family: "PT Serif bold"; 
+  src: url("./family font/PT_Serif/PTSerif-Bold.ttf");     
+} 
+
+@font-face {
+
+  font-family: "PT Serif bold italic"; 
+  src: url("./family font/PT_Serif/PTSerif-BoldItalic.ttf"); 
+}
+
+@font-face {
+  font-family: "PT Serif italic"; 
+  src: url("./family font/PT_Serif/PTSerif-Italic.ttf");
+}
+
+@font-face {
+  font-family: "PT Serif regular"; 
+  src: url("./family font/PT_Serif/PTSerif-Regular.ttf");  
+}
+
+.fab .fa-facebook-f {
+    font-size: 1000px;
+  }
+  
+  .navbar {
+   transpa
+  }
+
+  .navbar-brand {
+    font-family: "PT Serif regular"
+  }
+
+  .containerFoto{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+ background-image: url(edicionfoto2.png);
+ background-position-x: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+  }
+
+  .ppalFotoTexto {
+    padding-right:20px;
+    color:aliceblue;
+  }
