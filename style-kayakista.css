@@ -32,7 +32,7 @@ body {
     font-size: 1000px;
   }
   
-  .container-fluid{
+  .navbar .container-fluid{
     width: 100%;
   }
    .navbar {
@@ -58,7 +58,7 @@ body {
     justify-content: center;
     text-align: center;
     flex-direction: column;
- background-image: url(edicionfoto2.png);
+ background-image: url(assets/profes/edicionfoto2.png);
  background-color: transparent;
  opacity: 0.6;
  background-position-x: center;
@@ -99,3 +99,37 @@ body {
     padding: 20px;
     font-size: small;
   }
+
+
+  .profes {
+    display: flex;
+border-top: 40px solid transparent;
+border-bottom: 40px solid transparent;
+justify-content: center;    
+}
+
+    .descripcionProfe{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      /* align-items: center; */
+      /* justify-content: auto; */
+      border-top: 40px solid transparent;
+      border-left: 40px solid transparent;
+      border-right: 40px solid transparent;
+      border-bottom: 40px solid transparent;
+    }
+
+    .container{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .containerProfe{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    
