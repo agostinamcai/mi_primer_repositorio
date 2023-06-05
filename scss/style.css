@@ -172,4 +172,8 @@ input, textarea {
   label, input, textarea {
     width: 100%;
   }
+}
+.row {
+  display: flex;
+  justify-content: space-around;
 }/*# sourceMappingURL=style.css.map */
